@@ -3495,7 +3495,7 @@
 				GENERATE_MASTER_OBJECT_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				"OTHER_CFLAGS[sdk=macosx*]" = "";
 				PRELINK_LIBS = "$(CONFIGURATION_BUILD_DIR)/lib$(PRODUCT_NAME).a";
@@ -3519,7 +3519,7 @@
 				GENERATE_MASTER_OBJECT_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				"OTHER_CFLAGS[sdk=iphoneos*]" = "-fembed-bitcode";
 				"OTHER_CFLAGS[sdk=macosx*]" = "";
@@ -3737,7 +3737,7 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "@rpath";
 				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DPLCF_MIN_MACOSX_SDK=$(PL_MIN_MACOSX_SDK)",
@@ -3759,7 +3759,7 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "@rpath";
 				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DPLCF_MIN_MACOSX_SDK=$(PL_MIN_MACOSX_SDK)",
@@ -3935,7 +3935,7 @@
 				GENERATE_MASTER_OBJECT_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				PRELINK_LIBS = "$(CONFIGURATION_BUILD_DIR)/lib$(PRODUCT_NAME).a";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3954,7 +3954,7 @@
 				GENERATE_MASTER_OBJECT_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				"OTHER_CFLAGS[sdk=appletvos*]" = "-fembed-bitcode";
 				PRELINK_LIBS = "$(CONFIGURATION_BUILD_DIR)/lib$(PRODUCT_NAME).a";
@@ -4032,7 +4032,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EFFECTIVE_PLATFORM_NAME = "-iOS";
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -4041,7 +4041,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EFFECTIVE_PLATFORM_NAME = "-iOS";
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -4050,7 +4050,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EFFECTIVE_PLATFORM_NAME = "-tvOS";
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				SDKROOT = appletvos;
 			};
 			name = Debug;
@@ -4059,7 +4059,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EFFECTIVE_PLATFORM_NAME = "-tvOS";
-				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Resources/CrashReporter.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/$(PROJECT_NAME)/Source/CrashReporter.modulemap";
 				SDKROOT = appletvos;
 			};
 			name = Release;
