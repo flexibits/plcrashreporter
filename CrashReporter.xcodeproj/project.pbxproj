@@ -3733,11 +3733,6 @@
 		05CD31530EE936AA000FDE88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-					arm64e,
-				);
 				"ARCHS[sdk=iphonesimulator*]" = "$(PL_SIMULATOR_ARCHS)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				MACH_O_TYPE = staticlib;
@@ -3753,11 +3748,6 @@
 		05CD31540EE936AA000FDE88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"ARCHS[sdk=iphoneos*]" = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-					arm64e,
-				);
 				"ARCHS[sdk=iphonesimulator*]" = "$(PL_SIMULATOR_ARCHS)";
 				BITCODE_GENERATION_MODE = bitcode;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
